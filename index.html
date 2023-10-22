@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Like and Dislike Buttons</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Metaverse Article</h1>
+    <img src="https://taxila.in/blog/wp-content/uploads/2022/05/metaverse.jpeg">
+    <p>
+        The <b> metaverse</b> could transform the way we work and collaborate. <br>
+        Remote work has become more common in recent years, and the metaverse could take it to the next level. <br>
+        Virtual offices could be created in the metaverse, where people can collaborate and communicate in real-time, regardless of their physical location
+    </p>
+    <div>
+      <button class="button like" onclick="like()">Like</button>
+      <button class="button dislike" onclick="dislike()">Dislike</button>
+    </div>
+    <div class="counter">
+      <span id="likeCount">0</span> Likes | <span id="dislikeCount">0</span> Dislikes
+    </div>
+  </div>
+
+  <script src="JS.js"></script>
+
+</body>
+</html>
